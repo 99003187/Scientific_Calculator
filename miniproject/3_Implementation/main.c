@@ -149,8 +149,8 @@ int main()
         break;
     case 18:
         printf("Enter the weight and height:\n");
-        scanf("%lf%lf",&input1,&height);
-        printf("The BMI is %0.2lf",BMI(input1,height));
+        scanf("%lf%lf",&input1,&input2);
+        printf("The BMI is %0.2lf",BMI(input1,input2));
         break;
     }
            
