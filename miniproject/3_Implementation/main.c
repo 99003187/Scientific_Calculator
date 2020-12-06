@@ -25,6 +25,11 @@ int main()
     printf("11.log10 value\n");
     printf("12.Exponential\n");
     printf("13.To Find a number is even or odd\n");
+    printf("14.To find a area of a square\n");
+    printf("15. To find a area of a rectangle\n");
+    printf("16. To find volume of a cone\n");
+    printf("17. To find volume of a cylinder\n");
+    printf("18. To find BMI\n")
     printf("\nEnter you choice: ");
     scanf("%d",&choice);
     switch(choice)
@@ -122,6 +127,32 @@ int main()
             printf("Number is Odd");
             break;
             }
+       case 14:
+        printf("enter the side:\n");
+        scanf("%lf",&input1);
+        printf("The area of square = %0.2lf",square(input1));
+        break;
+    case 15:
+        printf("Enter the length and breadth:\n");
+        scanf("%lf%lf",&input1,&input2);
+        printf("The area of rectangle = %0.2lf",rectangle(input1,input2));
+        break;
+    case 16:
+        printf("Enter the radius and height:\n");
+        scanf("%lf%lf",&input1,&input2);
+        printf("The volume of a cone = %0.2lf",cone(input1,input2));
+        break;
+    case 17:
+        printf("Enter the radius and height:\n");
+        scanf("%lf%lf",&input1,&input2);
+        printf("The volume of a cone =%0.2lf",cylinder(input1,input2));
+        break;
+    case 18:
+        printf("Enter the weight and height:\n");
+        scanf("%lf%lf",&input1,&height);
+        printf("The BMI is %0.2lf",BMI(input1,height));
+        break;
+    }
            
         default :
             printf("Please choose valid choice to perform respective operation");
