@@ -1,4 +1,4 @@
-PROJECT_NAME = Calculator
+PROJECT_NAME = Scientific_Calculator
 
 BUILD = build
 
