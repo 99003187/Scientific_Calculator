@@ -29,7 +29,7 @@ int main()
     printf("15. To find a area of a rectangle\n");
     printf("16. To find volume of a cone\n");
     printf("17. To find volume of a cylinder\n");
-    printf("18. To find BMI\n")
+    printf("18. To find BMI\n");
     printf("\nEnter you choice: ");
     scanf("%d",&choice);
     switch(choice)
