@@ -22,6 +22,8 @@ void test_log10value(void);
 void test_power(void);
 void test_exponential(void);
 void test_even_or_odd(void);
+void test_square(void);
+void test_rectangle(void);
 
 
 int main() {
@@ -50,6 +52,8 @@ int main() {
   CU_add_test(suite, "TEST_EXPONENTIAL", test_exponential);
   CU_add_test(suite, "TEST_EVEN_OR_ODD", test_even_or_odd);
   CU_add_test(suite, "TEST_MODULO", test_modulo);
+  CU_add_test(suite, "TEST_SQUARE", test_square);
+  CU_add_test(suite, "TEST_RECTANGLE", test_rectangle);
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -171,5 +175,12 @@ void test_logvalue(void) {
   CU_ASSERT_DOUBLE_EQUAL(3.2188, logvalue(25),0.5);
   CU_ASSERT_DOUBLE_EQUAL(3.891, logvalue(49),0.5);
   CU_ASSERT_DOUBLE_EQUAL(4.6051, logvalue(100),0.5);
+}
+void test_square(void) {
+  CU_ASSERT_EQUAL(9.00, square(3));
+}
+
+void test_rectangle(void) {
+  CU_ASSERT_EQUAL(20.00, rectangle(10,2));
 }
   
