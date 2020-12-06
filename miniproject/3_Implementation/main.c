@@ -152,7 +152,6 @@ int main()
         scanf("%lf%lf",&input1,&input2);
         printf("The BMI is %0.2lf",BMI(input1,input2));
         break;
-    }
            
         default :
             printf("Please choose valid choice to perform respective operation");
