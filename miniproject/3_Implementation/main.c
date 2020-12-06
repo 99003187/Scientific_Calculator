@@ -30,19 +30,33 @@ int main()
     switch(choice)
     {
         case 1:
+            printf("\nEnter two number to add");
+            scanf("%lf %lf",&input1,&input2);
+            result = add(input1,input2);
+            printf("%lf",result);
             
             break;
 
         case 2:
+            printf("\nEnter two number to subtract");
+            scanf("%lf %lf",&input1,&input2);
+            result = subtract(input1,input2);
+            printf("%lf",result);
            
             break;
 
         case 3:
-            
+            printf("\nEnter two number to multiply");
+            scanf("%lf %lf",&input1,&input2);
+            result = multiply(input1,input2);
+            printf("%lf",result);
             break;
 
         case 4:
-            
+            printf("\nEnter two number to Divide");
+            scanf("%lf %lf",&input1,&input2);
+            result = divide(input1,input2);
+            printf("%lf",result);
             break;
 
         case 5:
