@@ -1,5 +1,5 @@
 #include "calculator_operations.h"
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int choice;
@@ -34,17 +34,15 @@ int main()
             scanf("%lf %lf",&input1,&input2);
             result = add(input1,input2);
             printf("%lf",result);
-            
             break;
-
+            
         case 2:
             printf("\nEnter two number to subtract");
             scanf("%lf %lf",&input1,&input2);
             result = subtract(input1,input2);
-            printf("%lf",result);
-           
+            printf("%lf",result); 
             break;
-
+            
         case 3:
             printf("\nEnter two number to multiply");
             scanf("%lf %lf",&input1,&input2);
