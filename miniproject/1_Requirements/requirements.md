@@ -19,3 +19,23 @@ Low Level Requirements:
 * Prevent users from divide by zero error
 * Can use either one or two operands
 * Results of operation should be accurate and has to be displayed on screen
+
+SOWT Analysis
+
+Strengths
+* Environmentally friendly application. 
+* Can perform operations anytime and every time.
+
+Weakness
+* Does not perform all operations.
+* There may be some incorrect results due to the invalid or wrong
+
+Oppurtunities
+* Saves human power to calculate manually.
+* Innovative technology
+
+Threats
+* When some invalid user input is given, it may end the program
+
+
+
